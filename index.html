@@ -1,1 +1,38 @@
-Hello Vole
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kadeřnictví Petra</title>
+        <link href="css/main.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="banner"
+             data-0="background-image: !url(img/1.png);background-position: 0 200px;"
+             data-50="background-image: !url(img/2.png);background-position: 0 0;"
+             data-100="background-image: !url(img/3.png);"
+             data-150="background-image: !url(img/4.png);"
+             data-200="background-image: !url(img/5.png);"
+             data-250="background-image: !url(img/6.png);"
+             data-300="background-image: !url(img/7.png);"
+             data-350="background-image: !url(img/8.png);"
+             data-400="background-image: !url(img/9.png);"
+             data-450="background-image: !url(img/10.png);"
+             data-500="background-image: !url(img/11.png);"
+        >
+            <div class="sc"
+                 data-0="background-image: !url(img/close-sc.png);"
+                 data-250="background-image: !url(img/open-sc.png);"
+                 data-500="background-image: !url(img/close-sc.png);"
+
+            ></div>
+        </section>
+
+        <div class="content" data-0="display: none;" data-500="display: block;"></div>
+
+        <script type="text/javascript" src="js/skrollr.min.js"></script>
+        <script type="text/javascript" src="js/skrollr.menu.min.js"></script>
+        <script type="text/javascript">
+            var s = skrollr.init();
+            skrollr.menu.init(s);
+        </script>
+    </body>
+</html>
