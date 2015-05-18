@@ -1,3 +1,10 @@
+/* PRELOAD */
+
+body:after{
+    display:none;
+    content: url(../img/kad.png) url(../img/nictvi) url(../img/close-sc.png) url(../img/open-sc.png);
+}
+
 #banner {
     width: 100%;
     position: fixed;
