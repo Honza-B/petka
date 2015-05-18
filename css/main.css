@@ -26,7 +26,7 @@
     //left: 0;
     width: 50%;
     min-height: 552px;
-    background: url(img/kad.png) no-repeat;
+    background: url(../img/kad.png) no-repeat;
     background-size: 100% auto;
 }
 
@@ -36,6 +36,6 @@
     //right: 0;
     width: 50%;
     min-height: 552px;
-    background: url(img/nictvi.png) no-repeat;
+    background: url(../img/nictvi.png) no-repeat;
     background-size: 100% auto;
 }
