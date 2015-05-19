@@ -6,6 +6,12 @@ $('.navbar-nav a').click(function(){
     } else {
         s.animateTo(0);
     }
-    //toggleMenu();
+    toggleMenu();
     return false;
 });
+
+function toggleMenu() {
+    if( $(window).width() < 764 ) {
+        $('.navbar-collapse').collapse('toggle');
+    }
+}

@@ -1,5 +1,19 @@
 /* PRELOAD */
 
+@font-face {
+    font-family: Bebas;
+    src: url('/fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+    font-family: Bebas Light;
+    src: url('/fonts/BebasNeue Light.otf');
+}
+
+body {
+    font-family: Bebas, sans-serif;
+}
+
 body:after{
     display:none;
     content: url(../img/kad.png) url(../img/nictvi.png) url(../img/close-sc.png) url(../img/open-sc.png);
@@ -73,6 +87,24 @@ body:after{
     padding-top: 35px;
 }
 
+.navbar-brand img {
+    height: 35px;
+}
+
 .navbar-nav {
     width: 100%;
+}
+
+.navbar-nav li {
+    text-align: center;
+}
+
+.navbar-nav li a {
+    font-family: Bebas Light, sans-serif;
+    font-size: 22px;
+}
+
+.navbar-collapse {
+    padding-top: 27px;
+    width: 75% !important;
 }
