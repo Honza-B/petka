@@ -8,6 +8,7 @@
         <title>Kadeřnictví Petra</title>
 
         <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+        <link href="css/magnific-popup.css" type="text/css" rel="stylesheet">
         <link href="css/main.css" type="text/css" rel="stylesheet">
     </head>
     <body>
@@ -30,7 +31,7 @@
                         <ul class="nav navbar-nav row">
                             <li class="col-lg-4"><a href="#services">Služby</a></li>
                             <li class="col-lg-4"><a href="#foto">Foto</a></li>
-                            <li class="col-lg-4"><a href="#">Kontakt</a></li>
+                            <li class="col-lg-4"><a href="#footer">Kontakt</a></li>
                         </ul>
                     </div>
                 </div>
@@ -63,9 +64,43 @@
                  data-0="top: 100%;"
                  data-600="top: 70%;"
                  data-1000="top: 0%;"
+                 data-1400="top: -20%"
         >
-            <div class="container">
-                <h1>Služby</h1>
+            <div class="container services-container">
+                <div class="row services-row">
+                    <div class="middle-wrap">
+                        <div class="col-lg-9 services-middle-align">
+                            <div class="row">
+                                <div class="col-lg-12 services-item">
+                                    <div class="services-title">Stříhání</div>
+                                    <div class="services-price">200 Kč</div>
+                                </div>
+                                <div class="col-lg-12 services-item">
+                                    <div class="services-title">Prodlužování vlasů</div>
+                                    <div class="services-price">1500 Kč</div>
+                                </div>
+                                <div class="col-lg-12 services-item">
+                                    <div class="services-title">Barvení</div>
+                                    <div class="services-price">300 Kč</div>
+                                </div>
+                                <div class="col-lg-12 services-item">
+                                    <div class="services-title">Vlasový styling</div>
+                                    <div class="services-price">500 Kč</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 services-middle-align services-btns">
+                            <div class="row services-row">
+                                <div class="col-lg-12">
+                                    <img src="img/cenik-close.png" class="btn-prices">
+                                </div>
+                                <div class="col-lg-12">
+                                    <img src="img/objednat-close.png" class="btn-order">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="foto"
@@ -78,7 +113,18 @@
             </div>
         </section>
 
+        <footer id="footer"
+                 data-2000="bottom: -100%;"
+                 data-2300="bottom: -30%;"
+                 data-2500="bottom: 0%;"
+        >
+            <div class="container">
+                <h1>Foto</h1>
+            </div>
+        </footer>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
         <script type="text/javascript" src="js/skrollr.min.js"></script>
         <script type="text/javascript" src="js/skrollr.menu.min.js"></script>
@@ -86,6 +132,6 @@
             var s = skrollr.init();
             skrollr.menu.init(s);
         </script>
-        <script type="text/javascript" src="js/menu.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </body>
 </html>
