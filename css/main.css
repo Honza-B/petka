@@ -185,6 +185,7 @@ body:after{
     width: 100%;
     height: 260px;
     background: #c1c1c1;
+    padding-top: 40px;
 }
 
 .photo-background {
@@ -195,7 +196,7 @@ body:after{
     display: table;
     text-align: center;
     overflow: hidden;
-    transition-duration: .4s;
+    //transition-duration: .4s;
 }
 
 .photo-title {
@@ -218,11 +219,51 @@ body:after{
 }
 
 #photo-01 {
-    background-image: url('../img/photo-background.png'), url('../img/photos/01.jpg');
+    background-image: url('../img/photo-background.png'), url('../img/photos/02.jpg');
 }
 
 #photo-01:hover {
+    background-image: url('../img/photos/02.jpg');
+}
+
+#photo-02 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/03.jpg');
+}
+
+#photo-02:hover {
+    background-image: url('../img/photos/03.jpg');
+}
+
+#photo-03 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/04.jpg');
+}
+
+#photo-03:hover {
+    background-image: url('../img/photos/04.jpg');
+}
+
+#photo-04 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/01.jpg');
+}
+
+#photo-04:hover {
     background-image: url('../img/photos/01.jpg');
+}
+
+#photo-05 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/05.jpg');
+}
+
+#photo-05:hover {
+    background-image: url('../img/photos/05.jpg');
+}
+
+#photo-06 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/06.jpg');
+}
+
+#photo-06:hover {
+    background-image: url('../img/photos/06.jpg');
 }
 
 .photo-container {
@@ -231,4 +272,13 @@ body:after{
 
 .photo-row {
     height: 100%;
+}
+
+.fb-ico {
+    background: url(img/fb-ico.png);
+    display: block;
+    height: 35px;
+    width: 36px;
+    background-size: cover;
+    margin-right: -15px;
 }
