@@ -2,12 +2,12 @@
 
 @font-face {
     font-family: Bebas;
-    src: url('/fonts/BebasNeue Regular.otf');
+    src: url('../fonts/BebasNeue-Regular.otf');
 }
 
 @font-face {
     font-family: Bebas Light;
-    src: url('/fonts/BebasNeue Light.otf');
+    src: url('../fonts/BebasNeue-Light.otf');
 }
 
 body {
@@ -185,4 +185,50 @@ body:after{
     width: 100%;
     height: 260px;
     background: #c1c1c1;
+}
+
+.photo-background {
+    min-height: 50%;
+    padding: 0;
+    background-repeat: repeat-x,no-repeat;
+    background-size: cover;
+    display: table;
+    text-align: center;
+    overflow: hidden;
+    transition-duration: .4s;
+}
+
+.photo-title {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #fff;
+}
+
+.photo-title:hover,
+.photo-title:active,
+.photo-title:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#photo-01 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/01.jpg');
+}
+
+#photo-01:hover {
+    background-image: url('../img/photos/01.jpg');
+}
+
+.photo-container {
+    height: 100%;
+}
+
+.photo-row {
+    height: 100%;
 }
