@@ -203,7 +203,7 @@ body:after{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
     text-transform: uppercase;
     font-weight: 600;
     padding-left: 10%;
@@ -214,6 +214,7 @@ body:after{
 .photo-title:hover,
 .photo-title:active,
 .photo-title:visited {
+    outline: none;
     color: #fff;
     text-decoration: none;
 }
@@ -274,6 +275,28 @@ body:after{
     height: 100%;
 }
 
+.mfp-bg {
+    background: #f06a68;
+}
+
+.custom-mfp-arrow-right {
+    background-image: url('../img/right-arrow.png') !important;
+    background-position: 50% 50% !important;
+    right: -90px;
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat !important;
+}
+
+.custom-mfp-arrow-left {
+    background-image: url('../img/left-arrow.png') !important;
+    background-position: 50% 50% !important;
+    left: -90px;
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat !important;
+}
+
 .fb-ico {
     background: url(img/fb-ico.png);
     display: block;
@@ -281,4 +304,45 @@ body:after{
     width: 36px;
     background-size: cover;
     margin-right: -15px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 20px;
+    text-align: right;
+    max-width: 1170px;
+    font-size: 20px;
+    padding-right: 0;
+}
+
+.copyright a {
+    color: #fff;
+    font-family: Bebas;
+}
+
+.contact-col {
+    height: 150px;
+}
+
+.contact-row {
+    color: #fff;
+    font-size: 24px;
+}
+
+.light-footer {
+    font-family: Bebas Light;
+}
+
+.tel-col {
+    margin-right: -20px
+}
+
+.address-col,
+.hours-col {
+    padding-left: 45px
+}
+
+.address-col {
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
 }

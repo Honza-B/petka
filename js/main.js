@@ -34,3 +34,24 @@ $('.btn-prices').click(function(){
 $('.btn-order').click(function(){
     s.animateTo(2500);
 });
+
+
+$('.photo-row').each(function() { // the containers for all your galleries
+    $(this).magnificPopup({
+        delegate: '.popup-href', // the selector for gallery item
+        type: 'image',
+        gallery: {
+            enabled:true,
+            arrowMarkup: '<button title="%title%" type="button" class="mfp-arrow custom-mfp-arrow-%dir%"></button>', // markup of an arrow button
+            tPrev: 'Předchozí (Levá šipka klávesnice)', // title for left button
+            tNext: 'Další (Pravá šipka klávesnice)', // title for right button
+            tCounter: '' // markup of counter
+        },
+        callbacks: {
+				buildControls: function() {
+					// re-appends controls inside the main container
+					this.contentContainer.append(this.arrowLeft.add(this.arrowRight));
+				}
+			}
+    });
+});
