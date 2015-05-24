@@ -100,10 +100,26 @@
     }
 
     .photo-background {
-        min-height: 25%;
+        min-height: 33.33333333%;
     }
 
     #footer {
         height: 80vh;
+    }
+
+    .fb-ico {
+        margin: 0;
+    }
+
+    .contact-row > div {
+        padding-left: 15px;
+        border: 0;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .copyright {
+        text-align: center;
+        padding-right: 15px;
     }
 }
