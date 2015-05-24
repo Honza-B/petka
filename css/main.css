@@ -277,6 +277,54 @@ body:after{
     background-image: url('../img/photos/06.jpg');
 }
 
+#photo-07 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/07.jpg');
+}
+
+#photo-07:hover {
+    background-image: url('../img/photos/07.jpg');
+}
+
+#photo-08 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/08.jpg');
+}
+
+#photo-08:hover {
+    background-image: url('../img/photos/08.jpg');
+}
+
+#photo-09 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/09.jpg');
+}
+
+#photo-09:hover {
+    background-image: url('../img/photos/09.jpg');
+}
+
+#photo-10 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/10.jpg');
+}
+
+#photo-10:hover {
+    background-image: url('../img/photos/10.jpg');
+}
+
+#photo-11 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/11.jpg');
+}
+
+#photo-11:hover {
+    background-image: url('../img/photos/11.jpg');
+}
+
+#photo-12 {
+    background-image: url('../img/photo-background.png'), url('../img/photos/12.jpg');
+}
+
+#photo-12:hover {
+    background-image: url('../img/photos/12.jpg');
+}
+
 .photo-container {
     height: 100%;
 }
