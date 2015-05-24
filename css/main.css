@@ -93,12 +93,13 @@ body:after{
 }
 
 .navbar-nav li {
-    text-align: center;
+    text-align: right;
 }
 
 .navbar-nav li a {
     font-family: Bebas Light, sans-serif;
     font-size: 17px;
+    padding-right: 0;
 }
 
 .navbar-collapse {
@@ -150,7 +151,7 @@ body:after{
 }
 
 .services-item {
-    padding-left: 0;
+    padding-left: 30px;
     padding-right: 0;
     transition-duration: .5s;
 }
@@ -330,6 +331,7 @@ body:after{
 }
 
 .photo-row {
+    margin: 0;
     height: 100%;
 }
 
@@ -361,7 +363,6 @@ body:after{
     height: 35px;
     width: 36px;
     background-size: cover;
-    margin-right: -15px;
 }
 
 .copyright {
@@ -370,7 +371,6 @@ body:after{
     text-align: right;
     max-width: 1170px;
     font-size: 20px;
-    padding-right: 0;
 }
 
 .copyright a {
