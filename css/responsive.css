@@ -1,0 +1,75 @@
+/* desktopy a wide-screen */
+
+@media (min-width: 992px) {
+    .hide-large {
+        display: none;
+    }
+}
+
+/* mobile a tablet */
+
+@media (max-width: 991px) {
+    .hide-small {
+        display: none;
+    }
+
+    .disable-br {
+        display: inline;
+    }
+}
+
+/* Desktopy */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hide-desktop {
+        display: none;
+    }
+}
+
+/* T-A-B-L-E-T-Y */
+
+@media (min-width: 768px) and (max-width: 979px) {
+    .hide-tablet {
+        display: none;
+    }
+
+    .navbar-nav {
+        width: 100%;
+    }
+}
+
+/* mobile */
+
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
+
+    .petka-nav {
+        min-height: 85px;
+    }
+
+    .navbar-brand {
+        padding-top: 25px;
+    }
+
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .navbar-nav li {
+        text-align: left;
+    }
+
+    .navbar-collapse {
+        padding-top: 0;
+    }
+
+    .navbar-nav {
+        padding-left: 45px;
+    }
+
+    .sc {
+        height: 65px;
+    }
+}
