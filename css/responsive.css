@@ -76,10 +76,11 @@
     .btn-prices,
     .btn-order {
         float: none;
+        max-width: 75px;
     }
 
     .services-middle-align {
-        top: 180px;
+        top: 150px;
         margin-top: 0;
     }
 
@@ -116,10 +117,13 @@
         border: 0;
         height: auto;
         padding-bottom: 20px;
+        line-height: 1.2;
+        font-size: 18px;
     }
 
     .copyright {
         text-align: center;
         padding-right: 15px;
+        font-size: 16px;
     }
 }
