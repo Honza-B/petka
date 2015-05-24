@@ -1,5 +1,5 @@
 $('.petka-nav a').click(function(){
-    if( $(this).attr('href') === '#services' ) {
+    /*if( $(this).attr('href') === '#services' ) {
         s.animateTo(1000);
     } else if( $(this).attr('href') === '#foto' ) {
         s.animateTo(2000);
@@ -7,9 +7,9 @@ $('.petka-nav a').click(function(){
         s.animateTo(2500);
     } else {
         s.animateTo(0);
-    }
+    }*/
     toggleMenu();
-    return false;
+    //return false;
 });
 
 function toggleMenu() {
