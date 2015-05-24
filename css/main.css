@@ -177,6 +177,7 @@ body:after{
 
 .btn-prices {
     margin-bottom: 30px;
+    transition-duration: .4s;
 }
 
 .middle-wrap {

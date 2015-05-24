@@ -72,4 +72,18 @@
     .sc {
         height: 65px;
     }
+
+    .btn-prices,
+    .btn-order {
+        float: none;
+    }
+
+    .services-row > div {
+        text-align: center;
+    }
+
+    .services-btns {
+        top: 10%;
+        margin-top: 0;
+    }
 }
