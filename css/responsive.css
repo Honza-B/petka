@@ -83,11 +83,19 @@
     }
 
     .services-btns {
-        top: 115px;
+        top: 0;
         margin-top: 0;
     }
 
     .services-title {
-        font-size: 36px;
+        font-size: 32px;
+    }
+
+    .services-price {
+        font-size: 22px;
+    }
+
+    .services-middle-align {
+        margin-top: -94px;
     }
 }
