@@ -35,6 +35,10 @@ $('.btn-order').click(function(){
     s.animateTo(2500);
 });
 
+$('.sc').click(function(){
+    s.animateTo(1000);
+});
+
 
 $('.photo-row').each(function() { // the containers for all your galleries
     $(this).magnificPopup({
